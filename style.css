@@ -1,0 +1,22 @@
+* {
+    background-color: black;
+}
+
+h1, h2 {
+    color: orange;
+    background-color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-weight: 50;
+    font-size: 20px;
+}
+
+p, ul, ol {
+    color: white;
+    font-weight:100;
+    font-family:'Courier New', Courier, monospace
+}
+
+
