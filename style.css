@@ -9,8 +9,12 @@ h1, h2 {
 }
 
 h2 {
+    box-sizing: border-box;
     font-weight: 50;
     font-size: 20px;
+    border: 10px dotted grey;
+    padding: 20px;
+    margin: 500px;
 }
 
 p, ul, ol {
@@ -18,5 +22,46 @@ p, ul, ol {
     font-weight:100;
     font-family:'Courier New', Courier, monospace
 }
+
+.title{
+    margin: 20px;
+    text-align: center;
+}
+
+ol>li {
+    margin-bottom: 10px;
+}
+
+/* Styles for the container and columns */
+.container {
+    display: flex;
+    justify-content: space-between; /* This will space out the columns evenly */
+}
+
+.column {
+    flex: 1; /* Makes each column take up equal space */
+    padding: 10px; /* Adds some space around each column */
+}
+
+/* Styles for the unordered list */
+ul {
+    list-style-type: none; /* Removes the default bullet points */
+    padding: 0; /* Removes default padding */
+}
+
+/* Styles for the list items */
+ul>li {
+    display: flex;
+    align-items: center; /* Aligns checkbox and label vertically */
+    padding-bottom: 10px; /* Adds some space between list items */
+}
+
+/* Styles for the checkboxes */
+input[type="checkbox"] {
+    margin-right: 10px; /* Adds some space between the checkbox and the label */
+}
+
+
+
 
 
