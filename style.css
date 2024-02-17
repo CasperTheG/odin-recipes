@@ -61,7 +61,14 @@ input[type="checkbox"] {
     margin-right: 10px; /* Adds some space between the checkbox and the label */
 }
 
+.naruto {
+    width: 100px;
+    height: auto;
+    display: flex;
+}
 
-
-
+.header{
+    display: flex;
+    flex: 1;
+}
 
